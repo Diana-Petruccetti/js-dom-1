@@ -8,3 +8,7 @@ let buttonEl = document.getElementById('button');
 
 // Fase 2: collego un event listener all'immagine e al pulsante
 
+buttonEl.addEventListener('click', ()=> {
+
+    imgEl.classList.add('light')
+})
