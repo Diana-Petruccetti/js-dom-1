@@ -10,5 +10,5 @@ let buttonEl = document.getElementById('button');
 
 buttonEl.addEventListener('click', ()=> {
 
-    imgEl.classList.add('light').src="yellow_lamp"
+    imgEl.classList.add('light').src="./assets/img/yellow_lamp.png"
 })
