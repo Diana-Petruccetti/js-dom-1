@@ -3,8 +3,8 @@
 // e cambia la scritta da accesa a spenta e viceversa.
 
 // Fase 1: seleziono gli elementi della DOM
-const imgEl = document.querySelector('lamp');
-const buttonEl = document.querySelector('button');
+const imgEl = document.getElementById('lamp');
+const buttonEl = document.getElementById('button');
 
 // Fase 2: collego un event listener all'immagine e al pulsante
 
@@ -24,7 +24,7 @@ buttonEl.addEventListener('click', () => {
     if (is_on){
         imgEl.setAttribute('src', './white_lamp.png');
         buttonEl.textContent = 'Accendi';
-        
+
     } else {
         imgEl.setAttribute ('src', './yellow_lamp.png');
 
